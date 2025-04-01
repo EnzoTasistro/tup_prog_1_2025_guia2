@@ -1,0 +1,27 @@
+Algoritmo Mayor_valor
+	
+	definir val, valmax Como Entero
+	
+	escribir "Ingrese el primer valor"
+	
+	leer val
+	
+	valmax <- val
+	
+	para i <- 2 hasta 5 hacer 
+		
+		escribir "Ingrese el siguiente número"
+		
+		leer val
+		
+		si val > valmax Entonces
+			
+			valmax <- val
+			
+		FinSi
+		
+	FinPara
+	
+	Escribir "El numero mayor es " valmax
+	
+FinAlgoritmo
